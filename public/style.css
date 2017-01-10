@@ -1,0 +1,38 @@
+body {
+    background-image: url("images (1).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40.85em;
+}
+
+
+#main {
+    width: 48%;
+    background:rgba(169,169,169,0.5);
+    border-radius: 0.15em;
+    position: relative;
+    top: 12em;
+    left: 17em;
+}
+
+.container {
+    width: 17%;
+    height: 13em;
+    position: relative;
+    top: 10em;
+}
+
+.btn {
+    background: gray;
+    color: white;
+}
+
+#demo {
+    color: blueviolet;
+}
+
+@media screen and (min_width:480 px){
+    body {
+    background-color: yellow;
+    }
+}
